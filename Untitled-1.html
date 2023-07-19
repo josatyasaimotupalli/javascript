@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            //creating object
+            var person = {
+                name: 'josatyasai',
+                age: 22,
+                getmydetails: function() {
+                    return "name is " + this.name + ", age is " + this.age;
+                }
+            };
+
+            //access the properties
+            document.write(person.name);
+            document.write("<br/>");
+
+            document.write(person['age']);
+            document.write("<br/>");
+
+            document.write(person.getmydetails());
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
